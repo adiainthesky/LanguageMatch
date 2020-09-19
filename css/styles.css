@@ -1,12 +1,18 @@
 body {
-  background-color: rgb(215, 230, 236);
+  /* background-color: rgb(230, 237, 240); */
+  background: linear-gradient(to left, rgb(230, 237, 240), rgb(167, 167, 167));
   padding: 4em;
   color: rgb(53, 50, 50);
+}
+
+.container {
+  background-color: ;
 }
 
 .btn {
   display: block;
   border-width: .2em;
+  background: linear-gradient(rgb(175, 173, 173), rgb(156, 155, 155))
 }
 #match {
   display: none;
@@ -22,27 +28,9 @@ body {
 	display: block;
 	font-size: .9em;
   padding: .6em;
-	width: 100%;
+	width: 60%;
 	border-radius: .5em;
-  background: linear-gradient(rgb(250, 240, 240), rgb(206, 199, 199));
-
-
-}
-.select-css::-ms-expand {
-	display: none;
-}
-.select-css:hover {
-	border-color: #888;
-}
-.select-css:focus {
-	border-color: #aaa;
-	box-shadow: 0 0 1px 3px rgba(59, 153, 252, .7);
-	box-shadow: 0 0 0 3px -moz-mac-focusring;
-	color: #222;
-	outline: none;
-}
-.select-css option {
-	font-weight:normal;
+  background: linear-gradient(rgb(231, 229, 229), rgb(179, 176, 176));
 }
 
 span#language {
