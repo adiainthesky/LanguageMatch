@@ -1,6 +1,50 @@
+body {
+  background-color: rgb(215, 230, 236);
+  padding: 4em;
+  color: rgb(53, 50, 50);
+}
+
 .btn {
   display: block;
+  border-width: .2em;
 }
 #match {
   display: none;
+}
+
+#languageChoice {
+  font-size: 1em;
+  font-weight: bold;
+}
+
+
+#end, #ease, #speed, #ways, #chocolate {
+	display: block;
+	font-size: .9em;
+  padding: .6em;
+	width: 100%;
+	border-radius: .5em;
+  background: linear-gradient(rgb(250, 240, 240), rgb(206, 199, 199));
+
+
+}
+.select-css::-ms-expand {
+	display: none;
+}
+.select-css:hover {
+	border-color: #888;
+}
+.select-css:focus {
+	border-color: #aaa;
+	box-shadow: 0 0 1px 3px rgba(59, 153, 252, .7);
+	box-shadow: 0 0 0 3px -moz-mac-focusring;
+	color: #222;
+	outline: none;
+}
+.select-css option {
+	font-weight:normal;
+}
+
+span#language {
+  font-weight: bold;
 }
