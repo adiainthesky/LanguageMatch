@@ -9,12 +9,28 @@ body {
   background-color: ;
 }
 
+/* img#right {
+  width: 12%;
+  height: auto;
+  float: right;
+  padding-left: 20px;;
+  margin-right: 60px;
+}
+
+img#left {
+  width: 12%;
+  height: auto;
+  float: left;
+  padding-right: 20px;;
+} */
+
 .btn {
   display: block;
   border-width: .2em;
   background: linear-gradient(rgb(175, 173, 173), rgb(156, 155, 155))
 }
-#match {
+
+#match, #Javascript, #Python, #Ruby {
   display: none;
 }
 
@@ -22,7 +38,6 @@ body {
   font-size: 1em;
   font-weight: bold;
 }
-
 
 #end, #ease, #speed, #ways, #chocolate {
 	display: block;
