@@ -5,6 +5,10 @@ body {
   color: rgb(53, 50, 50);
 }
 
+h1 {
+  color: rgb(63, 27, 52);
+}
+
 .container {
   background-color: ;
 }
@@ -37,6 +41,7 @@ img#left {
 #languageChoice {
   font-size: 1em;
   font-weight: bold;
+  color: rgb(63, 27, 52);
 }
 
 #end, #ease, #speed, #ways, #chocolate {
@@ -51,3 +56,11 @@ img#left {
 span#language {
   font-weight: bold;
 }
+
+img {
+  max-width: 60%;
+  max-heigth: auto;
+  display: block;
+  align-self: left;
+  border: groove rgb(63, 27, 52) 10px;
+  }
