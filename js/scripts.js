@@ -10,7 +10,7 @@ $(document).ready(function() {
     let language 
 
     if (end === "Front") {
-      language = "Javascript";
+      language = "JavaScript";
       $("#Python, #Ruby").hide();
       $("#Javascript").show();
     } else if (ways === "manyWays") {
@@ -22,7 +22,7 @@ $(document).ready(function() {
       $("#Javascript, #Ruby").hide();
       $("#Python").show();
     } else if (speed === "Fast" && end != "Back") {
-      language = "Javascript";
+      language = "JavaScript";
       $("#Python, #Ruby").hide();
       $("#Javascript").show();
     } else {

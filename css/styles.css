@@ -13,20 +13,6 @@ h1 {
   background-color: ;
 }
 
-/* img#right {
-  width: 12%;
-  height: auto;
-  float: right;
-  padding-left: 20px;;
-  margin-right: 60px;
-}
-
-img#left {
-  width: 12%;
-  height: auto;
-  float: left;
-  padding-right: 20px;;
-} */
 
 .btn {
   display: block;
@@ -55,6 +41,7 @@ img#left {
 
 span#language {
   font-weight: bold;
+  font-style: italic;
 }
 
 img {
